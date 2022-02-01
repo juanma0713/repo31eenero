@@ -20,7 +20,7 @@ if($num1>0 & $num2>0){
 }else if($num1<0 & $num2<0){
     echo "tercer cuadrante ";
     echo "<br>";
-    echo "la posocion en el eje X: ".$num1;
+    echo "laa posocion en el eje X: ".$num1;
     echo "<br>";
     echo "la posocion en el eje Y: ".$num2;
     echo "<br>";
