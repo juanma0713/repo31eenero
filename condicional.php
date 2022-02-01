@@ -10,6 +10,6 @@ if ($edad>=18){
 
     echo " su edad es $edad";
     echo "<br>";
-    echo "usted es menor de edad";
+    echo "usted es menor de edaddd";
 }
 
