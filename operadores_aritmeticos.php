@@ -1,5 +1,5 @@
 <?php 
-$num1 = 5;
+$num1 = 6;
 $num2 = 4;
 $suma=$num1+$num2;
 $resta=$num1-$num2;
