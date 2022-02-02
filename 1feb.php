@@ -64,6 +64,7 @@
       <input type="submit" value="calcular" class="btn">
 
     </form>
+   
 
     <br>
     
@@ -82,14 +83,12 @@
     
 
     if ($edad>=18){
-        echo "su edad es $edad años";
-        echo "<br>";
-        echo "usted es mayor de edad";
+        echo "<script language='javascript'>alert('su edad es $edad');</script>";
+        echo "<script language='javascript'>alert('usted es mayor de edad');</script>";
     }else {
     
-        echo " su edad es $edad";
-        echo "<br>";
-        echo "usted es menor de edad";
+        echo "<script language='javascript'>alert('su edad es $edad');</script>";
+        echo "<script language='javascript'>alert('usted es menor de edad');</script>";
     }
 
     ?>
