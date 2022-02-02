@@ -66,6 +66,7 @@
     </form>
 
     <br>
+    
 
     <?php 
 
@@ -77,10 +78,22 @@
     // el metedo REQUEST se utliza para funciones de un solo formulario  el POST para funciones de varios formularios...
     $edad=$apresente-$anacimiento;
 
-    echo "su edad edad es $edad años";
+    
+    
+
+    if ($edad>=18){
+        echo "su edad es $edad años";
+        echo "<br>";
+        echo "usted es mayor de edad";
+    }else {
+    
+        echo " su edad es $edad";
+        echo "<br>";
+        echo "usted es menor de edad";
+    }
 
     ?>
-    
+    <hr>
     
     
     
