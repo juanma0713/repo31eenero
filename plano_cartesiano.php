@@ -24,7 +24,7 @@ if($num1>0 & $num2>0){
     echo "<br>";
     echo "la posocion en el eje Y: ".$num2;
     echo "<br>";
-}else if($num1>0 & $num2<0){
+}else {
     echo "Cuarto cuadrante ";
     echo "<br>";
     echo "la posocion en el eje X: ".$num1;
